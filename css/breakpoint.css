@@ -1,0 +1,506 @@
+@media (min-width: 769px) and (max-width: 992px) {
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+}
+
+
+@media (min-width: 769px) {
+}
+
+
+
+/* LARGE INTERVAL */
+@media (max-width: 1100px) {
+	header .headerLogo {
+		height: 70px;
+	}
+
+	header .headerMenu {
+		padding: 0 18px;
+	}
+
+	header .headerMenu .headerMenuItem {
+		width: max-content;
+    	max-width: 95px;
+	}
+
+	.screen2 .screen2List .screen2ListItem {
+		width: 29%;
+	}
+
+	.screen2 .screen2List .screen2ListItem .screen2ListItemImage {
+		width: 170px;
+		height: 170px;
+	}
+
+	.houseList .houseListItem .houseListItemMain {
+		width: 70%;
+	}
+
+	.houseList .houseListItem .houseListItemInfo {
+		width: 30%;
+	}
+
+	.houseList .houseListItem .houseListItemRoute {
+		flex-wrap: wrap;
+	}
+
+	.houseList .houseListItem .houseListItemRoute .houseListItemRouteMap {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	.houseList .houseListItem .houseListItemRoute .houseListItemRouteMetro {
+		width: 100%;
+	}
+
+	.houseList .houseListItem .houseListItemPoints {
+		margin-bottom: 90px;
+	}
+
+	.houseList .houseListItem .houseListItemPoints .houseListItemPointsList {
+		flex-wrap: wrap;
+	}
+
+	.houseList .houseListItem .houseListItemInfo .houseListItemInfoBottom {
+		max-width: 200px;
+	}
+
+	.card .cardTop {
+		flex-wrap: wrap;
+	}
+
+	.card .cardTop .cardTopTitle {
+		width: 100%;
+		margin-bottom: 5px;
+		word-break: break-word;
+	}
+
+	.card .cardInfo .cardInfoLine {
+		flex-wrap: wrap;
+	}
+
+	.card .cardInfo .cardInfoMetro {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+}
+
+
+@media (max-width: 992px) {
+	header {
+		padding: 15px 0;
+	}
+
+	header .headerLogo {
+		height: 50px;
+	}
+
+	header .headerInfo .headerInfoTitle {
+		font-size: 12px;
+	}
+
+	header .headerInfo .headerInfoPhone {
+		font-size: 22px;
+	}
+
+	footer .footerMenu .footerMenuItem {
+		margin-right: 30px;
+	}
+
+	footer .footerInfo {
+		max-width: 200px;
+	}
+
+	.screen1 .screen1Content .screen1ContentForm {
+		margin-right: 80px;
+	}
+
+	.search .searchHeader .searchHeaderTitle {
+		max-width: 70%;
+	}
+
+	.card .cardLeft {
+		width: 55%;
+	}
+
+	.card .cardRight {
+		width: 45%;
+	    margin-left: 30px;
+	}
+
+	.card .cardCalc .cardCalcItem .cardCalcItemList {
+		flex-wrap: wrap;
+	}
+
+	.card .cardCalc .cardCalcItem .cardCalcItemList .cardCalcItemListItembutton {
+		width: 100%;
+		margin-top: 15px;
+	}
+
+	.semilar .semilarList .semilarListItem .semilarListItemInfo {
+		flex-wrap: wrap;
+	}
+
+	.semilar .semilarList .semilarListItem .semilarListItemInfo .semilarListItemInfoMetro {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+}
+
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 54px;
+	}
+
+	header .container {
+		flex-wrap: wrap;
+	}
+
+	header .headerMenu {
+		order: 3;
+	    width: 100%;
+	    margin-top: 15px;
+	    margin-bottom: 0;
+	    padding: 0;
+	}
+
+	header .headerMenu .headerMenuItem {
+		max-width: 100%;
+	}
+
+	header .headerInfo {
+		order: 2;
+	}
+
+	footer .footerMain .container {
+		flex-wrap: wrap;
+	}
+
+	footer .footerMenu {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	footer .footerMenu .footerMenuItem {
+		margin-right: 11%;
+	}
+
+	footer .footerInfo {
+		max-width: inherit;
+	}
+
+	.screen1 .screen1Content {
+		flex-wrap: wrap;
+	}
+
+	.screen1 .screen1Content .screen1ContentInfo {
+		order: 1;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.screen1 .screen1Content .screen1ContentForm {
+		order: 2;
+		margin-right: 0;
+	}
+
+	.screen2 .screen2List .screen2ListItem {
+		width: 44%;
+	}
+
+	.searchPanel {
+		flex-wrap: wrap;
+	}
+
+	.searchPanel .searchPanelLeft {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.search .searchHeader .searchHeaderTitle {
+		max-width: 65%;
+	}
+
+	.houseList .houseListItem .houseListItemImage {
+		max-height: 230px;
+	}
+
+	.houseList .houseListItem .houseListItemRight {
+		flex-wrap: wrap;
+	}
+
+	.houseList .houseListItem .houseListItemMain {
+		width: 100%;
+	}
+
+	.houseList .houseListItem .houseListItemMain .houseListItemMainWrapper {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.houseList .houseListItem .houseListItemInfo {
+		width: 100%;
+	    padding: 25px 30px;
+	    padding-top: 0;
+	    text-align: left;
+	}
+
+	.houseList .houseListItem .houseListItemPoints {
+		margin-top: 15px;
+		margin-bottom: 0;
+	}
+
+	.houseList .houseListItem .houseListItemPoints .houseListItemPointsList {
+		justify-content: flex-start;
+	}
+
+	.houseList .houseListItem .houseListItemInfo .houseListItemInfoBottom {
+		max-width: inherit;
+		position: relative;
+		top: 0;
+		right: 0;
+		margin-top: 15px;
+	}
+
+	.card .container {
+		flex-wrap: wrap;
+	}
+
+	.card .cardLeft {
+		width: 100%;
+	}
+
+	.card .cardDescription {
+		margin-bottom: 60px;
+	}
+
+	.card .cardRight {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 50px;
+	}
+
+	.card .cardCalc .cardCalcItem .cardCalcItemList .cardCalcItemListItembutton {
+		width: auto;
+		margin-top: 0;
+	}
+
+	.semilar .semilarList {
+		flex-wrap: wrap;
+		margin-bottom: -30px;
+	}
+
+	.semilar .semilarList .semilarListItem {
+		width: 49%;
+		margin-bottom: 30px;
+	}
+}
+
+
+@media (max-width: 576px) {
+	h1 {
+		font-size: 34px;
+	}
+
+	h2 {
+		font-size: 27px;
+    	line-height: 36px;
+    	margin-bottom: 45px;
+	}
+
+	header .headerLogo {
+		height: 30px;
+	}
+
+	header .headerMenu {
+		width: auto;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	header .headerMenu .headerMenuItem {
+	    max-width: 90px;
+	    font-size: 12px;
+	    text-align: center;
+	}
+
+	header .headerInfo {
+		text-align: right;
+	}
+
+	header .headerInfo .headerInfoTitle {
+		max-width: 150px;
+		font-size: 11px;
+	}
+
+	header .headerInfo .headerInfoPhone {
+		font-size: 16px;
+	}
+
+	footer .footerMenu {
+		flex-wrap: wrap;
+		margin-bottom: 10px;
+	}
+
+	footer .footerMenu .footerMenuItem {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+
+	.screen1 {
+		margin-bottom: 70px;
+	}
+
+	.screen1 .screen1Content .screen1ContentInfo .screen1ContentInfoItem .screen1ContentInfoItemImage {
+		min-width: 45px;
+	    max-width: 45px;
+	    height: 45px;
+	}
+
+	.screen1 .screen1Content .screen1ContentInfo .screen1ContentInfoItem .screen1ContentInfoItemImage img {
+		min-height: 100%;
+	}
+
+	.screen1 .screen1Content .screen1ContentInfo .screen1ContentInfoItem .screen1ContentInfoItemTitle {
+		font-size: 18px;
+	}
+
+	.screen1 .screen1Content .screen1ContentForm {
+		width: 100%;
+	}
+
+	.screen1 .screen1Content .screen1ContentForm .screen1ContentFormTitle {
+		font-size: 28px;
+	}
+
+	.screen2 .screen2List {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.screen2 .screen2List .screen2ListItem {
+		width: 100%;
+		margin: 15px;
+	}
+
+	.screen2 .screen2List .screen2ListItem .screen2ListItemTitle {
+		font-size: 26px;
+	}
+
+	.screen2 .screen2List .screen2ListItem .screen2ListItemText {
+		font-size: 18px;
+	}
+
+	.screen2 .screen2More {
+		font-size: 20px;
+    	line-height: 16px;
+	}
+
+	.search .searchHeader {
+		flex-wrap: wrap;
+	}
+
+	.search .searchHeader .searchHeaderTitle {
+		max-width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.houseList .houseListItem {
+		flex-wrap: wrap;
+		margin-bottom: 30px;
+	}
+
+	.houseList .houseListItem .houseListItemImage {
+		width: 100%;
+	}
+
+	.houseList .houseListItem .houseListItemRight {
+		width: 100%;
+	}
+
+	.houseList .houseListItem .houseListItemMain {
+		padding: 15px;
+	}
+
+	.houseList .houseListItem .houseListItemRoute {
+		margin-bottom: 23px;
+	}
+
+	.houseList .houseListItem .houseListItemInfo {
+		padding: 15px;
+		padding-top: 0;
+	}
+
+	.pagination {
+		margin-top: 30px;
+		padding: 15px;
+	}
+
+	.paginationContent {
+		flex-wrap: wrap;
+	    justify-content: center;
+	    padding: 0 20px;
+	}
+
+	.card .cardTop .cardTopTitle {
+		font-size: 30px;
+	}
+
+	.card .cardInfo {
+		width: 100%;
+		flex-wrap: wrap;
+	}
+
+	.card .cardInfo > div {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.card .cardTable .cardTableList .cardTableListItem {
+		flex-wrap: wrap;
+	}
+
+	.card .cardTable .cardTableList .cardTableListItem .cardTableListItemTitle {
+		width: 100%;
+	}
+
+	.card .cardTable .cardTableList .cardTableListItem .cardTableListItemValue {
+		padding-left: 30px;
+		padding-top: 5px;
+	}
+
+	.card .cardCalc .cardCalcTop {
+		flex-wrap: wrap;
+	}
+
+	.card .cardCalc .cardCalcTop .cardCalcTopTitle {
+		margin-bottom: 10px;
+	}
+
+	.card .cardCalc .cardCalcItem .cardCalcItemList {
+		flex-wrap: wrap;
+		margin-bottom: -15px;
+	}
+
+	.card .cardCalc .cardCalcItem .cardCalcItemList .cardCalcItemListItem {
+		width: 50%;
+		margin-bottom: 15px;
+	}
+
+	.card .cardCalc .cardCalcItem .cardCalcItemList .cardCalcItemListItembutton {
+		width: 100%;
+	}
+
+	.semilar .semilarList .semilarListItem {
+		width: 100%;
+	}
+
+	.semilar .semilarList .semilarListItem .semilarListItemTitle {
+		margin-bottom: 10px;
+	}
+}

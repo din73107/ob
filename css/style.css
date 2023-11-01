@@ -1,0 +1,1188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+	position: relative;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+h1 {
+	font-size: 66px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-size: 37px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 60px;
+}
+
+h2 span {
+	padding-bottom: 3px;
+	border-bottom: 4px solid #f7d432;
+}
+
+header {
+	padding-bottom: 15px;
+}
+
+header .container {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+header .headerLogo {
+	height: 90px;
+}
+
+header .headerLogo img {
+	height: 100%;
+}
+
+header .headerMenu {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+header .headerMenu .headerMenuItem {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 15px;
+	color: #333;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-right: 15px;
+	padding: 5px 7px;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+header .headerMenu .headerMenuItem:nth-last-of-type(1) { margin-right: 0; }
+
+header .headerMenu .headerMenuItem:hover {
+	background: #fcce09;
+}
+
+header .headerInfo {
+	text-align: center;
+}
+
+header .headerInfo .headerInfoTitle {
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+header .headerInfo .headerInfoPhone {
+	font-size: 26px;
+	font-weight: 600;
+	color: #333;
+	text-decoration: none;
+}
+
+footer {
+	margin-top: 40px;
+}
+
+footer .footerMain {
+	background: url('../images/footer_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 45px 0;
+}
+
+footer .footerMain .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .footerMenu {
+	display: flex;
+}
+
+footer .footerMenu .footerMenuItem { margin-right: 60px; }
+
+footer .footerMenu .footerMenuItem:nth-last-of-type(1) { margin-right: 0; }
+
+footer .footerMenu .footerMenuItem .footerMenuItemTitle {
+	font-size: 14px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+footer .footerMenu .footerMenuItem .footerMenuItemLink { margin-bottom: 10px; }
+
+footer .footerMenu .footerMenuItem .footerMenuItemLink:nth-last-of-type(1) { margin-bottom: 0; }
+
+footer .footerMenu .footerMenuItem .footerMenuItemLink a {
+	font-size: 14px;
+	font-weight: 600;
+	color: #6892ff;
+	text-decoration: none;
+}
+
+footer .footerMenu .footerMenuItem .footerMenuItemLink a:hover {
+	text-decoration: underline;
+}
+
+footer .footerInfo .footerInfoTitle {
+	font-size: 13px;
+	font-weight: 800;
+	margin-bottom: 8px;
+}
+
+footer .footerInfo .footerInfoPhone {
+	font-size: 24px;
+	font-weight: 800;
+	margin-bottom: 7px;
+}
+
+footer .footerInfo .footerInfoEmail {
+	font-size: 14px;
+	font-weight: 800;
+	color: #6892ff;
+}
+
+footer .footerCopyright {
+	font-size: 14px;
+	line-height: 24px;
+	padding: 23px 0;
+}
+
+.screen1 {
+	background: url('../images/main_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	padding: 30px 0 25px 0;
+	margin-bottom: 110px;
+}
+
+.screen1 .screen1Content {
+	display: flex;
+	justify-content: center;
+}
+
+.screen1 .screen1Content .screen1ContentForm {
+	width: 50%;
+	max-width: 405px;
+	margin-right: 120px;
+}
+
+.screen1 .screen1Content .screen1ContentForm .screen1ContentFormTitle {
+	font-size: 34px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.screen1 .screen1Content .screen1ContentForm .form {
+	background: #fff;
+	padding: 20px 25px 35px 25px;
+	-webkit-box-shadow: 0px 0px 10px 8px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 0px 0px 10px 8px rgba(34, 60, 80, 0.2);
+	box-shadow: 0px 0px 10px 8px rgba(34, 60, 80, 0.2);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.screen1 .screen1Content .screen1ContentForm .form .formTitle {
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 23px;
+}
+
+.screen1 .screen1Content .screen1ContentForm .form .formTitle span {
+	font-size: 28px;
+	display: block;
+}
+
+.ui-selectmenu-button.ui-button {
+	width: 100%;
+	height: 54px;
+	border: 1px solid #ededed;
+	border-radius: 5px;
+	padding: 0 22px;
+	background: #fff;
+	box-sizing: border-box;
+}
+
+.ui-selectmenu-text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	line-height: 54px;
+	color: #333;
+}
+
+.ui-button .ui-icon {
+	background-image: url('../images/arrow_bottom.svg')!important;
+    background-size: 100%;
+    background-position: center;
+    width: 16px;
+    height: 12px;
+    top: 50%;
+    margin-top: -6px;
+}
+
+.inputBlock1 {
+	display: flex;
+	position: relative;
+	width: max-content;
+}
+
+.inputBlock1 .inputBlock1Button1 {
+	width: 46px;
+	height: 46px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fcce09;
+	position: absolute;
+	right: 1px;
+	top: 1px;
+	outline: none;
+	border: 0;
+}
+
+.inputBlock1 .inputBlock1Button1 img {
+	height: 20px;
+}
+
+.inputBlock1Text1 {
+	min-width: 278px;
+	height: 48px;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	padding: 0 55px 0 15px;
+	outline: none;
+	box-sizing: border-box;
+}
+
+.inputLine {
+	margin-bottom: 22px;
+}
+
+.input1 {
+	width: 100%;
+	height: 48px;
+	border: 1px solid #f0f0f0;
+	padding: 0 18px;
+	font-size: 13px;
+	font-weight: 400;
+	outline: none;
+	box-sizing: border-box;
+}
+
+.input1:placeholder {
+	color: #f0f0f0;
+}
+
+.textarea1 {
+	width: 100%;
+	height: 140px;
+	border: 1px solid #f0f0f0;
+	padding: 18px;
+	font-size: 13px;
+	font-weight: 400;
+	outline: none;
+	box-sizing: border-box;
+}
+
+.button1 {
+	height: 42px;
+	border: 0;
+	border-radius: 8px;
+	background: #fdcf0a;
+	padding: 0 15px;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.button2 {
+	height: 38px;
+	border: 2px solid #fdcf0a;
+	border-radius: 8px;
+	background: transparent;
+	padding: 0 15px;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.button3 {
+	min-width: 220px;
+	height: 42px;
+	border: 0;
+	border-radius: 6px;
+	background: #fdcf0a;
+	padding: 0 15px;
+	font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.button4 {
+	height: 40px;
+	border: 0;
+	border-radius: 20px;
+	background: #f9b11e;
+	padding: 0 15px;
+	font-size: 12px;
+    font-weight: 500; 
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button4:before {
+	content: '';
+	background: url('../images/phone2.svg');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	margin-right: 8px;
+	display: inline-block;
+}
+
+.screen1 .screen1Content .screen1ContentForm .form .button {
+	border: 0;
+	outline: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 54px;
+	padding: 0 15px;
+	margin-top: 20px;
+	min-width: 266px;
+	width: max-content;
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	background: #333;
+	border-radius: 10px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.screen1 .screen1Content .screen1ContentInfo {
+	width: 50%;
+	max-width: 445px;
+}
+
+.screen1 .screen1Content .screen1ContentInfo .screen1ContentInfoItem {
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.screen1 .screen1Content .screen1ContentInfo .screen1ContentInfoItem:nth-last-of-type(1) { margin-bottom: 0; }
+
+.screen1 .screen1Content .screen1ContentInfo .screen1ContentInfoItem .screen1ContentInfoItemImage {
+	display: flex;
+	align-items: center;
+	min-width: 65px;
+	max-width: 65px;
+	height: 65px;
+	margin-right: 35px;
+}
+
+.screen1 .screen1Content .screen1ContentInfo .screen1ContentInfoItem img {
+	max-width: 100%;
+	max-height: 100%;
+	min-height: 65px;
+}
+
+.screen1 .screen1Content .screen1ContentInfo .screen1ContentInfoItem .screen1ContentInfoItemTitle {
+	font-size: 21px;
+}
+
+.screen2 .screen2List {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: -30px -15px;
+}
+
+.screen2 .screen2List .screen2ListItem {
+	width: 33.33333%;
+	max-width: 300px;
+	margin: 30px 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.screen2 .screen2List .screen2ListItem .screen2ListItemImage {
+	width: 210px;
+	height: 210px;
+	display: flex;
+	justify-content: center;
+}
+
+.screen2 .screen2List .screen2ListItem img {
+	height: 100%;
+	min-height: 100%;
+}
+
+.screen2 .screen2List .screen2ListItem .screen2ListItemTitle {
+	font-size: 34px;
+	color: #6587b5;
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+.screen2 .screen2List .screen2ListItem .screen2ListItemText {
+	font-size: 22px;
+}
+
+.screen2 .screen2More {
+	width: 140px;
+	font-size: 24px;
+	font-weight: 400;
+	color: #6387b7;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+	cursor: pointer;
+}
+
+.screen2 .screen2More img {
+	width: 20px;
+	margin-top: 10px;
+}
+
+.breadcrumbs {
+	margin-bottom: 10px;
+}
+
+.breadcrumbs a {
+	font-size: 14px;
+	font-weight: 600;
+	color: #648efc;
+	text-decoration: none;
+}
+
+.breadcrumbs .sep {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0 7px;
+}
+
+.breadcrumbs .active {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.pageTop {
+	background: url('..../images/main_bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+	padding: 13px 0 8px 0;
+	margin-bottom: 26px;
+}
+
+.pageTop h1 {
+	font-size: 34px;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.search .searchHeader {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	margin-bottom: 32px;
+}
+
+.search .searchHeader .searchHeaderTitle {
+	font-size: 34px;
+	font-weight: 600;
+}
+
+.search .searchHeader .searchHeaderKol {
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 2px;
+}
+
+.houseList .houseListItem {
+	display: flex;
+	border: 1px solid #e8e8e8;
+	margin-bottom: 60px;
+}
+
+.houseList .houseListItem .houseListItemImage {
+	width: 40%;
+	max-height: 310px;
+	position: relative;
+}
+
+.houseList .houseListItem .houseListItemImage img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.imageRating {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 70px;
+	height: 70px;
+	background: #fecc0b;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.imageRating .imageRatingKol {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 3px;
+	display: block;
+}
+
+.imageRating .imageRatingText {
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: block;
+}
+
+.houseList .houseListItem .houseListItemRight {
+	width: 60%;
+	display: flex;
+}
+
+.houseList .houseListItem .houseListItemMain {
+	width: 75%;
+	padding: 25px 30px;
+}
+
+.houseList .houseListItem .houseListItemTitle {
+	font-size: 28px;
+	font-weight: 600;
+	color: #638efe;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.houseList .houseListItem .houseListItemMain .houseListItemMainWrapper {
+	width: 68%;
+	max-width: 300px;
+}
+
+.houseList .houseListItem .houseListItemRoute {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 33px;
+}
+
+.houseList .houseListItem .houseListItemRoute .houseListItemRouteMap:before {
+	content: '';
+	background: url('../images/location.svg');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 13px;
+	height: 16px;
+	margin-right: 2px;
+	margin-bottom: -2px;
+	display: inline-block;
+}
+
+.houseList .houseListItem .houseListItemRoute .houseListItemRouteMap {
+	font-size: 14px;
+	font-weight: 500;
+	color: #638EFE;
+}
+
+.houseList .houseListItem .houseListItemRoute .houseListItemRouteMetro:before {
+	content: '';
+	background: url('../images/metro.png');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 13px;
+	height: 16px;
+	margin-right: 3px;
+	margin-bottom: -4px;
+	display: inline-block;
+}
+
+.houseList .houseListItem .houseListItemRoute .houseListItemRouteMetro {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.houseList .houseListItem .houseListItemText {
+	font-size: 14px;
+	line-height: 19px;
+	font-weight: 600;
+	text-align: justify;
+}
+
+.houseList .houseListItem .houseListItemInfo {
+	width: 25%;
+	padding: 25px 15px 15px 0;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+}
+
+.houseList .houseListItem .houseListItemPrice {
+	font-size: 29px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.houseList .houseListItem .houseListItemWifi:before {
+	content: '';
+	background: url('../images/wifi.svg');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-right: 4px;
+	margin-bottom: -2px;
+	display: inline-block;
+}
+
+.houseList .houseListItem .houseListItemWifi {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.houseList .houseListItem .houseListItemPoints {
+	margin-bottom: 70px;
+}
+
+.houseList .houseListItem .houseListItemPoints .houseListItemPointsTitle {
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+
+.houseList .houseListItem .houseListItemPoints .houseListItemPointsList {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-bottom: -10px;
+}
+
+.houseList .houseListItem .houseListItemPoints .houseListItemPointsList img {
+	height: 38px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+.houseList .houseListItem .houseListItemPoints .houseListItemPointsList img:nth-last-of-type(1) { margin-right: 0; }
+
+.houseList .houseListItem .houseListItemInfo .houseListItemInfoBottom {
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	width: max-content;
+}
+
+.houseList .houseListItem .houseListItemNation {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.houseList .houseListItem .houseListItemNation img {
+	height: 20px;
+	margin-left: 30px;
+}
+
+.houseList .houseListItem .houseListItemMin {
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 10px;
+}
+
+.pagination {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #f0f1f6;
+	margin-top: 55px;
+	padding: 17px 30px;
+}
+
+.pagination .paginationButton {
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.pagination .paginationPrev:before {
+	content: '';
+	background: url('../images/pagin_left.svg');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 7px;
+	height: 14px;
+	margin-right: 10px;
+	margin-bottom: 2px;
+	display: inline-block;
+}
+
+.pagination .paginationNext:after {
+	content: '';
+	background: url('../images/pagin_right.svg');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 7px;
+	height: 14px;
+	margin-left: 10px;
+	margin-bottom: 2px;
+	display: inline-block;
+}
+
+.paginationContent {
+	display: flex;
+	align-items: center;
+}
+
+.paginationContent .paginationContentItem {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 28px;
+	height: 27px;
+	border-radius: 5px;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.paginationContent .paginationContentItem.active {
+	background: #fcce07;
+}
+
+.searchPanel {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #e8e8e8;
+	padding-bottom: 26px;
+	margin-bottom: 26px;
+}
+
+.searchPanel .searchPanelSwitcher {
+	display: flex;
+	align-items: center;
+	height: 46px;
+	border: 1px solid #e8e8e8;
+}
+
+.searchPanel .searchPanelSwitcher .searchPanelSwitcherItem {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 82px;
+	height: 100%;
+	border-right: 1px solid #e8e8e8;
+	font-size: 14px;
+	font-weight: 500;
+	color: #638efe;
+	cursor: pointer;
+}
+
+.searchPanel .searchPanelSwitcher .searchPanelSwitcherItem:nth-last-of-type(1) { margin-right: 0; }
+
+.searchPanel .searchPanelSwitcher .searchPanelSwitcherItem.active {
+	color: #333;
+	background: #fcce09;
+}
+
+.card {
+	margin-bottom: 50px;
+}
+
+.card .container {
+	display: flex;
+	align-items: flex-start;
+}
+
+.card .cardLeft {
+	width: 50%;
+}
+
+.card .cardRight {
+	width: 50%;
+	margin-left: 40px;
+}
+
+.card .cardImages {
+	margin-bottom: 20px;
+}
+
+.card .cardImages .cardImagesMain img {
+	width: 100%;
+	max-height: 380px;
+	object-fit: cover;
+}
+
+.card .cardImages .cardImagesList {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card .cardImages .cardImagesList .cardImagesListItem {
+	width: 33%;
+}
+
+.card .cardImages .cardImagesList .cardImagesListItem img {
+	width: 100%;
+	height: 120px;
+	object-fit: cover;
+}
+
+.card .cardDescription {
+	margin-bottom: 90px;
+}
+
+.card .cardDescription .cardDescriptionTitle {
+	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.card .cardDescription .cardDescriptionText {
+	font-size: 19px;
+	line-height: 22px;
+	font-weight: 400;
+}
+
+.card .cardReviews .cardReviewsTitle {
+	font-size: 23px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.card .cardReviews .cardReviewsEmpty {
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	border: 1px solid #f0f0f0;
+	padding: 35px;
+	box-sizing: border-box;
+}
+
+.card .cardReview .cardReviewTitle {
+	font-size: 23px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.card .cardTop {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.card .cardTop .cardTopTitle {
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: uppercase;
+	width: calc(100% - 150px);
+}
+
+.card .cardTop .cardTopPrice {
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.card .cardInfo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 45px;
+}
+
+.card .cardInfo .cardInfoLine {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card .cardInfo .cardInfoAddress {
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.card .cardInfo .cardInfoAddress span {
+	color: #6892ff;
+}
+
+.card .cardInfo .cardInfoMetro {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.card .cardInfo .cardInfoMetro:before {
+	content: '';
+	background: url('../images/metro.png');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 13px;
+	height: 16px;
+	margin-right: 3px;
+	margin-bottom: -3px;
+	display: inline-block;
+}
+
+.card .cardInfo .cardInfoViews {
+	font-size: 16px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+}
+
+.card .cardInfo .cardInfoViews:before {
+	content: '';
+	background: url('../images/view.svg');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 13px;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+.card .cardTable {
+	border: 2px solid #ececec;
+	margin-bottom: 30px;
+}
+
+.card .cardTable .cardTableTop {
+	display: flex;
+	align-items: center;
+}
+
+.card .cardTable .cardTableTop .cardTableTopItem {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	height: 40px;
+	background: #ededed;
+	padding: 0 15px;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #aeaeae;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.card .cardTable .cardTableTop .cardTableTopItem.active {
+	background: #fff;
+	color: #5e5e5c;
+}
+
+.card .cardTable .cardTableList {
+	padding: 20px;
+}
+
+.card .cardTable .cardTableList .cardTableListItem {
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.card .cardTable .cardTableList .cardTableListItem:nth-last-of-type(1) {
+	margin-bottom: 0;
+}
+
+.card .cardTable .cardTableList .cardTableListItem .cardTableListItemTitle {
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+
+.card .cardTable .cardTableList .cardTableListItem .cardTableListItemTitle img {
+	width: 20px;
+	height: 22px;
+	margin-right: 10px;
+}
+
+.card .cardTable .cardTableList .cardTableListItem .cardTableListItemValue {
+	color: #95b59d;
+	display: flex;
+	align-items: center;
+}
+
+
+.card .cardCalc {
+	border: 1px solid #ececec;
+	margin-bottom: 50px;
+}
+
+.card .cardCalc .cardCalcItem {
+	border-bottom: 1px solid #ececec;
+}
+
+.card .cardCalc .cardCalcItem:nth-last-of-type(1) {
+	border-bottom: 0;
+}
+
+.card .cardCalc .cardCalcTop {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #ececec;
+	padding: 17px 20px;
+}
+
+.card .cardCalc .cardCalcTop .cardCalcTopTitle {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.card .cardCalc .cardCalcTop .cardCalcTopTitle span {
+	display: block;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-top: 2px;
+}
+
+.card .cardCalc .cardCalcItem {
+	padding: 22px 20px;
+}
+
+.card .cardCalc .cardCalcItem .cardCalcItemKol {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.card .cardCalc .cardCalcItem .cardCalcItemList {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.card .cardCalc .cardCalcItem .cardCalcItemList .cardCalcItemListItemMonth {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.card .cardCalc .cardCalcItem .cardCalcItemList .cardCalcItemListItemPrice {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 2px;
+}
+
+.card .cardCalc .cardCalcItem .cardCalcItemList .cardCalcItemListItemTariff {
+	font-size: 15px;
+	font-weight: 500;
+	color: #aca5ad;
+}
+
+.semilar .semilarTitle {
+	font-size: 23px;
+	font-weight: 600;
+	margin-bottom: 35px;
+}
+
+.semilar .semilarList {
+	display: flex;
+	justify-content: space-between;
+}
+
+.semilar .semilarList .semilarListItem {
+	width: 30%;
+}
+
+.semilar .semilarList .semilarListItem .semilarListItemImage {
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.semilar .semilarList .semilarListItem .semilarListItemImage img {
+	width: 100%;
+	height: 240px;
+	object-fit: cover;
+}
+
+.semilar .semilarList .semilarListItem .semilarListItemTitle {
+	font-size: 23px;
+	font-weight: 600;
+	color: #6892ff;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+.semilar .semilarList .semilarListItem .semilarListItemInfo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.semilar .semilarList .semilarListItem .semilarListItemInfo .semilarListItemInfoMetro {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.semilar .semilarList .semilarListItem .semilarListItemInfo .semilarListItemInfoMetro:before {
+	content: '';
+	background: url('../images/metro.png');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 13px;
+	height: 16px;
+	margin-right: 3px;
+	margin-bottom: -3px;
+	display: inline-block;
+}
+
+.semilar .semilarList .semilarListItem .semilarListItemInfo .semilarListItemInfoPrice {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.yandexMap {
+	margin-top: 40px;
+}

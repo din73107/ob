@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Размещайка</title>
+		<meta name="description" content="Размещайка">
+
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="Content-Language" content="ru">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+
+		<!-- Favicon -->
+		<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+		<!-- JS and jQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+		<script src="plugins/selectmenu/jquery-ui.min.js"></script>
+		<link rel="stylesheet" href="plugins/selectmenu/jquery-ui.min.css">
+
+		<script>
+			$(document).ready(function($) {
+				$('body').on('click', '.headerMenu', function() {
+					$('.menuBlock').toggleClass('active');
+				});
+
+				$('.selectmenu').selectmenu();
+			});
+		</script>
+
+		<!-- CSS and JS -->
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/breakpoint.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="headerLogo">
+					<img src="images/logo.png" alt="logo">
+				</div>
+
+				<div class="headerMenu">
+					<a href="#" class="headerMenuItem">О проекте</a>
+
+					<a href="#" class="headerMenuItem">Контакты</a>
+
+					<a href="#" class="headerMenuItem">Владельцам общежитий</a>
+				</div>
+
+				<div class="headerInfo">
+					<div class="headerInfoTitle">Подберем и бесплатно забронируем</div>
+
+					<a href="#" class="headerInfoPhone">8 (800) 800 00 00</a>
+				</div>
+			</div>
+		</header>
+
+		<div class="screen1">
+			<div class="container">
+				<h1>Все общежития на одном сайте</h1>
+
+				<div class="screen1Content">
+					<div class="screen1ContentForm">
+						<div class="screen1ContentFormTitle">Бронируйте общежития без комиссии</div>
+
+						<form class="form">
+							<div class="formTitle"><span>Выберите город</span> в котором ищите общежитие</div>
+
+							<select class="selectmenu" name="city">
+								<option>Москва</option>
+								<option>Санкт-Петербург</option>
+								<option>Рязань</option>
+							</select>
+
+							<button type="submit" class="button">Найти общежитие</button>
+						</form>
+					</div>
+
+					<div class="screen1ContentInfo">
+						<div class="screen1ContentInfoItem">
+							<div class="screen1ContentInfoItemImage">
+								<img src="images/watch.png" alt="">
+							</div>
+
+							<div class="screen1ContentInfoItemTitle">Экономьте до 80% времени на поиск общежития</div>
+						</div>
+
+						<div class="screen1ContentInfoItem">
+							<div class="screen1ContentInfoItemImage">
+								<img src="images/appart.png" alt="">
+							</div>
+
+							<div class="screen1ContentInfoItemTitle">Выбирайте из самое большой базы общежитий в России</div>
+						</div>
+
+						<div class="screen1ContentInfoItem">
+							<div class="screen1ContentInfoItemImage">
+								<img src="images/phone.png" alt="">
+							</div>
+
+							<div class="screen1ContentInfoItemTitle">Общайтесь с профессиональной и отзывчивой командой поддержки</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="screen2">
+			<div class="container">
+				<h2>Более <span>143</span> общежитий в 39 городах России</h2>
+
+				<div class="screen2List">
+					<div class="screen2ListItem">
+						<div class="screen2ListItemImage">
+							<img src="images/goroda/piterburg.png" alt="">
+						</div>
+
+						<div class="screen2ListItemTitle">Санкт-Петербург</div>
+
+						<div class="screen2ListItemText">4 Общежития</div>
+					</div>
+
+					<div class="screen2ListItem">
+						<div class="screen2ListItemImage">
+							<img src="images/goroda/samara.png" alt="">
+						</div>
+
+						<div class="screen2ListItemTitle">Самара</div>
+
+						<div class="screen2ListItemText">9 Общежитий</div>
+					</div>
+
+					<div class="screen2ListItem">
+						<div class="screen2ListItemImage">
+							<img src="images/goroda/domodedovo.png" alt="">
+						</div>
+
+						<div class="screen2ListItemTitle">Домодедово</div>
+
+						<div class="screen2ListItemText">7 Общежитий</div>
+					</div>
+
+					<div class="screen2ListItem">
+						<div class="screen2ListItemImage">
+							<img src="images/goroda/podolsk.png" alt="">
+						</div>
+
+						<div class="screen2ListItemTitle">Подольск</div>
+
+						<div class="screen2ListItemText">7 Общежитий</div>
+					</div>
+
+					<div class="screen2ListItem">
+						<div class="screen2ListItemImage">
+							<img src="images/goroda/voronej.png" alt="">
+						</div>
+
+						<div class="screen2ListItemTitle">Воронеж</div>
+
+						<div class="screen2ListItemText">6 Общежитий</div>
+					</div>
+
+					<div class="screen2ListItem">
+						<div class="screen2ListItemImage">
+							<img src="images/goroda/rostov_na_donu.png" alt="">
+						</div>
+
+						<div class="screen2ListItemTitle">Ростов-на-дону</div>
+
+						<div class="screen2ListItemText">5 Общежитий</div>
+					</div>
+
+					<div class="screen2ListItem">
+						<div class="screen2ListItemImage">
+							<img src="images/goroda/kazan.png" alt="">
+						</div>
+
+						<div class="screen2ListItemTitle">Казань</div>
+
+						<div class="screen2ListItemText">5 Общежитий</div>
+					</div>
+
+					<div class="screen2ListItem">
+						<div class="screen2ListItemImage">
+							<img src="images/goroda/ekatirinburg.png" alt="">
+						</div>
+
+						<div class="screen2ListItemTitle">Екатеринбург</div>
+
+						<div class="screen2ListItemText">4 Общежития</div>
+					</div>
+
+					<div class="screen2ListItem">
+						<div class="screen2ListItemImage">
+							<img src="images/goroda/nigniy_novgorod.png" alt="">
+						</div>
+
+						<div class="screen2ListItemTitle">Нижний Новгород</div>
+
+						<div class="screen2ListItemText">2 Общежития</div>
+					</div>
+				</div>
+
+				<div class="screen2More">
+					Посмотреть все города
+					<img src="images/arrow_right.svg" alt="arrow">
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="footerMain">
+				<div class="container">
+					<div class="footerMenu">
+						<div class="footerMenuItem">
+							<div class="footerMenuItemTitle">О нас</div>
+
+							<div class="footerMenuItemLink">
+								<a href="#">Контакты</a>
+							</div>
+
+							<div class="footerMenuItemLink">
+								<a href="#">О проекте</a>
+							</div>
+
+							<div class="footerMenuItemLink">
+								<a href="#">Faq</a>
+							</div>
+						</div>
+
+						<div class="footerMenuItem">
+							<div class="footerMenuItemTitle">Услуги</div>
+
+							<div class="footerMenuItemLink">
+								<a href="#">Для физических лиц</a>
+							</div>
+
+							<div class="footerMenuItemLink">
+								<a href="#">Для юридических лиц</a>
+							</div>
+
+							<div class="footerMenuItemLink">
+								<a href="#">Подбор жилья</a>
+							</div>
+
+							<div class="footerMenuItemLink">
+								<a href="#">Оформление документов</a>
+							</div>
+
+							<div class="footerMenuItemLink">
+								<a href="#">Перевозка вещей</a>
+							</div>
+						</div>
+
+						<div class="footerMenuItem">
+							<div class="footerMenuItemTitle">Партнерам</div>
+
+							<div class="footerMenuItemLink">
+								<a href="#">Владельцам общежитий</a>
+							</div>
+
+							<div class="footerMenuItemLink">
+								<a href="#">Для сайтов партнеров</a>
+							</div>
+
+							<div class="footerMenuItemLink">
+								<a href="#">Владельцам хостелов</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="footerInfo">
+						<div class="footerInfoTitle">Подберем и бесплатно забронируем</div>
+
+						<div class="footerInfoPhone">8 (800) 800 00 00</div>
+
+						<div class="footerInfoEmail">info@размещайка.рф</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="footerCopyright">
+					Copyright © 2010-2017, ООО «‎Размещайка» <br>
+					Все права защищены
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
